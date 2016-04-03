@@ -18,7 +18,7 @@ var OkieDrag = (function() {
     var maxPos = 0;
 
     this.element.addEventListener('mousedown', function(event) {
-      helpers.stopEvent(event);
+      okieHelpers.stopEvent(event);
       startScroll();
       event.target.classList.add('okie-drag-dragging');
       downPos =  {x: event.clientX, y:event.clientY}
@@ -63,7 +63,7 @@ var OkieDrag = (function() {
     }
 
     function moveListener(event) {
-      helpers.stopEvent(event);
+      okieHelpers.stopEvent(event);
       if (event.touches && event.touches.length > 1) endScroll();
       // if touchlength is greater than 1,
       // the user is probably trying to zoom, 
@@ -89,7 +89,7 @@ var OkieDrag = (function() {
       element.style.top = pos+'px';
       setTimeout(function() {
         element.classList.remove('transition-position');
-      }, helpers.getTransDuration(element));
+      }, okieHelpers.getTransDuration(element));
     }
 
     function startScroll() {
