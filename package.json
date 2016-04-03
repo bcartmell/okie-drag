@@ -1,0 +1,24 @@
+{
+  "name": "okie-drag",
+  "version": "1.0.0",
+  "description": "Impliments drag scrolling",
+  "main": "okie-drag.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcartmell/okie-drag.git"
+  },
+  "keywords": [
+    "drag",
+    "scroll",
+    "okie"
+  ],
+  "author": "Brady Cartmell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcartmell/okie-drag/issues"
+  },
+  "homepage": "https://github.com/bcartmell/okie-drag#readme"
+}

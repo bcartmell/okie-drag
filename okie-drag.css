@@ -1,0 +1,13 @@
+.okie-drag-draggable {
+  position: relative;
+
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+
+.okie-drag-dragging {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
